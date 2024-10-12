@@ -1,9 +1,10 @@
 import './index.css'
-import { Navbar } from './components/custom/Navbar'
+
+import{ Authenticate} from './pages/Authenticate'
 export default function App() {
   return (
     <div>
-      <Navbar/>
+      <Authenticate/>
     </div>
   )
 }
